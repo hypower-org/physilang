@@ -51,8 +51,9 @@
                           arg args 
                           block))
 
+; Force the use of hiccup for now.
 (def pl-grammar
-  (insta/parser pl-grammar-ebnf))
+  (insta/parser pl-grammar-ebnf :output-format :hiccup))
 
 (defn -main
   [& args]
