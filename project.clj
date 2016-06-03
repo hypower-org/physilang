@@ -3,8 +3,8 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :aot [physilang.core]
-  :main physilang.core 
-  :dependencies [[org.clojure/clojure "1.7.0"]
+;  :aot [physilang.core]
+;  :main physilang.core 
+  :dependencies [[org.clojure/clojure "1.8.0"]
                  [instaparse "1.4.1"]
                  [rhizome "0.2.5"]])

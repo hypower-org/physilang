@@ -1,7 +1,8 @@
 (ns physilang.core
   (:require [instaparse.core :as insta])
   (:require [clojure.string :as str])
-  (:gen-class :main true))
+  ;(:gen-class :main true)
+  )
 
 (def digit "digit = #'[0-9]+' ")
 (def letter "letter = #'[a-zA-Z]+' ")
