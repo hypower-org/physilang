@@ -1,5 +1,5 @@
 (ns physilang.experimental)
 
-(import [edu.hsc.hypower.physicloud PhysiCloudRuntime])
+(import [edu.hsc.hypower DemoRuntime])
 
-(def pc-runtime (new PhysiCloudRuntime "test"))
+(def pc-runtime (new DemoRuntime "test"))
